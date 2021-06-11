@@ -23,7 +23,7 @@ public class LoginServiceimpl extends EgovAbstractMapper implements LoginService
 	public UserVO userLogin(UserVO vo){
 		System.out.println("로그인 서비스");
 		System.out.println(vo);
-
+		System.out.println("여기왔다.");
 
 		return loginDAO.userLogin(vo);
 	}
